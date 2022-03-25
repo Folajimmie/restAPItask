@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rest Country</title>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <h2>Where in the World?</h2>
+      <button class="toggle"><i class="fas fa-moon">Dark Mode</i></button>
+    </header>
+
+    <div class="container">
+      <div class="searchBar">
+        <input type="text" placeholder="Search for a country..." class="search">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="filter">
+        <div class="filter-dropdown">
+          <p>Filter by Region</p>
+            <button><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="dropdown">
+          <p class="region">All</p>
+          <p class="region">Africa</p>
+          <p class="region">America</p>
+          <p class="region">Asia</p>
+          <p class="region">Europe</p>
+          <p class="region">Oceania</p>
+          <p class="region">Africa</p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="countries-container" id="show-layout"></div> -->
+    <div class="countries"></div>
+
+    <div class="countryModal show">
+      <button class="back">Back</button>
+      <div class="modal">
+        <div class="left-modal">
+          <img src="https://flagcdn.com/ax.svg" alt="">
+        </div>
+
+        <div class="right-modal">
+         
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html> 
