@@ -175,14 +175,13 @@ button {
 .countries {
     padding: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
 } 
 
 .country {
     min-height: 350px;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    width: 350px;
     border-radius: 5px;
     overflow: hidden;
     background: var(--countrybgColor);
